@@ -110,4 +110,6 @@ if __name__ == "__main__":
 
     plt.scatter(x_raw,y,c="red") 
     plt.plot(x_raw,y_pred,c="green")
+    plt.xlabel('Input Values')
+    plt.ylabel('Predictions')
     plt.show()

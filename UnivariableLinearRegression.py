@@ -61,4 +61,7 @@ if __name__ == "__main__":
     model = UnivariableLinearRegression(lr=0.04)
     predictions = model.train(X,Y,epochs=1000)
     plt.plot(X,predictions,c="green")
+    plt.xlabel('Input Values')
+    plt.ylabel('Predictions')
     plt.show()
+
