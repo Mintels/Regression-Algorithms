@@ -1,3 +1,6 @@
+'''
+Self Implemented Multivariable Linear Regression Algorithm 
+''' 
 
 import numpy as np
 import matplotlib.pyplot as plt
